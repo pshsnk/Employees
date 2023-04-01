@@ -5,8 +5,8 @@ package com.innowise.employees.validations;
 import com.innowise.employees.annotations.PasswordMatches;
 import com.innowise.employees.payload.request.SignupRequest;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 public class PasswordMatchesValidator implements ConstraintValidator<PasswordMatches, Object> {
 

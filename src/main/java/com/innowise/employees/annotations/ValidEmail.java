@@ -1,12 +1,10 @@
 package com.innowise.employees.annotations;
 
-
-
-
 import com.innowise.employees.validations.EmailValidator;
+import jakarta.validation.Constraint;
+import jakarta.validation.Payload;
 
-import javax.validation.Constraint;
-import javax.validation.Payload;
+
 import java.lang.annotation.*;
 
 @Target({ElementType.TYPE, ElementType.FIELD, ElementType.ANNOTATION_TYPE})

@@ -4,8 +4,8 @@ package com.innowise.employees.validations;
 
 import com.innowise.employees.annotations.ValidEmail;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
